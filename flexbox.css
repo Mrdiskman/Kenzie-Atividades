@@ -1,0 +1,120 @@
+
+body {background-color: black;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin-top: 10%;
+
+}
+
+main{
+  margin: auto;
+  width: 700px;
+}
+
+.kenzie{
+  display: flex;
+  justify-content: center;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0 auto;
+    width: 700px;
+    height: 200px;
+}
+
+ul li div{
+    width: 160px;
+
+}
+
+ul{
+    padding-left: 0px;
+}
+
+figure{
+    height: 160px;
+    width: 160px;
+    overflow: hidden;
+    margin: 0%;
+}
+
+.perfil{
+    transition: 0.5s;
+    cursor: pointer;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+}
+
+.perfil:hover{
+    transform: scale(1.2);
+    
+}
+
+
+
+p{
+    font-family: 'IBM Plex Sans', sans-serif;
+    cursor: pointer;
+    color: #9C9C9C;
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    border: solid 1px white;
+    border-radius: 10px;
+    
+       
+}
+
+li{
+    width: 160px;
+    height: 160px;
+}
+
+.botao{
+    font-family: 'IBM Plex Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+    
+}
+
+button:hover{
+    transition: 0.5s;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    display: flex;
+   
+}
+
+#perfis:hover{
+transition:  0.3s;
+border: solid 2px white;
+border-radius: 5%;
+}
+
+#perfis{
+    border: solid 2px transparent;
+}
